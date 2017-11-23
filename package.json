@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "concurrently \"npm run gulp\" \"nodemon ./bin/www\"",
+    "start": "concurrently \"nodemon ./bin/www\" \"npm run gulp\"",
     "gulp": "gulp"
   },
   "dependencies": {
